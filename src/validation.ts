@@ -4,8 +4,8 @@ import { ResolutionType, ErrorsType } from './typings';
 export const isResolutionValid = (
   dataURL: string,
   resolutionType: ResolutionType,
-  resolutionWidth: number = 0,
-  resolutionHeight: number = 1
+  resolutionWidth: 0,
+  resolutionHeight: 1
 ): Promise<boolean> => {
   const image = new Image();
 

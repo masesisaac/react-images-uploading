@@ -7,7 +7,7 @@ import { App } from './fixtures/app';
 
 describe('testing initial list of n images', () => {
   it('should render component', () => {
-    var file = new File([''], 'image-1-name', { type: 'image/png' });
+    const file = new File([''], 'image-1-name', { type: 'image/png' });
 
     const images: ImageListType = [
       {

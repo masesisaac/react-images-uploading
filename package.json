@@ -3,20 +3,20 @@
   "version": "3.0.1",
   "description": "The simple images uploader applied Render Props pattern. This approach allows you to fully control UI component and behaviours.",
   "author": {
-    "name" : "vutoan266",
-    "email" : "vutoan266@gmail.com",
-    "url" : "https://github.com/vutoan266"
+    "name": "vutoan266",
+    "email": "vutoan266@gmail.com",
+    "url": "https://github.com/vutoan266"
   },
   "contributors": [
     {
-      "name" : "davidnguyen179",
-      "email" : "dzungnguyen179@gmail.com",
-      "url" : "https://github.com/davidnguyen179"
+      "name": "davidnguyen179",
+      "email": "dzungnguyen179@gmail.com",
+      "url": "https://github.com/davidnguyen179"
     },
     {
-      "name" : "conandk",
-      "email" : "ddangkhoa94@gmail.com",
-      "url" : "https://github.com/conandk"
+      "name": "conandk",
+      "email": "ddangkhoa94@gmail.com",
+      "url": "https://github.com/conandk"
     }
   ],
   "license": "MIT",
@@ -42,6 +42,7 @@
     "start": "node ./server",
     "prettier": "prettier --write ./**/*.{js,ts,tsx,md}",
     "test": "./node_modules/.bin/jest",
+    "lint": "eslint . --ext .js,.ts,.tsx",
     "contributors:add": "./node_modules/.bin/all-contributors add",
     "contributors:generate": "./node_modules/.bin/all-contributors generate",
     "toc": "./node_modules/.bin/doctoc --notitle README.md"
@@ -60,6 +61,8 @@
     "@types/react": "^16.3.13",
     "@types/react-dom": "^16.0.5",
     "@types/sinon": "^9.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
     "all-contributors-cli": "^6.17.2",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
@@ -73,6 +76,7 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.3",
     "enzyme-to-json": "^3.5.0",
+    "eslint": "^7.8.1",
     "express": "^4.17.1",
     "file-loader": "^6.0.0",
     "gh-pages": "^1.2.0",
